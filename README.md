@@ -85,6 +85,7 @@ Add: 힙 해볼까? 박창현 (Add: 주제 + 해볼까? + 이름)
 
 - 예시 1 : /programmers/오픈채팅방/changhyun.py
 - 예시 2 : /BOJ/22858.원상복구/changhyun.py
+- 예시 3 : /해볼까?/heap/changhyun.py
   <br>
 
 ## 🥕 코드 리뷰
@@ -96,3 +97,11 @@ Add: 힙 해볼까? 박창현 (Add: 주제 + 해볼까? + 이름)
 2. 새로 만든 branch에 코드 push
 3. push 완료 후 GitHub branch 페이지에서 Pull Request(PR) 버튼 클릭
 4. 코드 리뷰 받고 <b>스터디 시간 전에 merge</b> (merge 후 branch 삭제)
+
+<br>
+
+## ✍️ 스터디 내용
+
+| 주차 | 해볼까? | 문제 | 관련 알고리즘 |
+|---|---|---|---|
+| 1주차 | heap, deque | [모음사전](https://school.programmers.co.kr/learn/courses/30/lessons/84512), [여행경로](https://school.programmers.co.kr/learn/courses/30/lessons/43164) | DFS/BFS, 완전탐색|
