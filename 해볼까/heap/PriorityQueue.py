@@ -18,6 +18,8 @@ class PriorityQueue:
     def pop(self):
         top = self.nodes[0]
         last = self.nodes.pop()
+        if len(self.nodes) == 0 :
+            return top
         self.nodes[0] = last
         self.bubbleDown(0)
         return top
