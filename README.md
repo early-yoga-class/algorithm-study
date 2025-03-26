@@ -24,10 +24,10 @@
 ### 브랜치 네이밍
 
 ```
-week{주차}-문제이름 or 해볼까 주제 이름
+week{주차}-본인이름
 
-ex) week02-모음사전
-ex) week02-힙
+ex) week02-baek
+ex) week02-changhyun
 ```
 
 <br>
@@ -104,4 +104,4 @@ Add: 힙 해볼까? 박창현 (Add: 주제 + 해볼까? + 이름)
 
 | 주차 | 해볼까? | 문제 | 관련 알고리즘 |
 |---|---|---|---|
-| 1주차 | heap, deque | [모음사전](https://school.programmers.co.kr/learn/courses/30/lessons/84512), [여행경로](https://school.programmers.co.kr/learn/courses/30/lessons/43164) | DFS/BFS, 완전탐색|
+| 2주차 | heap, deque | [모음사전](https://school.programmers.co.kr/learn/courses/30/lessons/84512), [여행경로](https://school.programmers.co.kr/learn/courses/30/lessons/43164) | DFS/BFS, 완전탐색|
