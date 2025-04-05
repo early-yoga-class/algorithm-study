@@ -108,3 +108,4 @@ Add: 힙 해볼까? 박창현 (Add: 주제 + 해볼까? + 이름)
 |---|---|---|---|
 | 2주차 | [heap](https://github.com/early-yoga-class/algorithm-study/tree/main/%ED%95%B4%EB%B3%BC%EA%B9%8C/heap), [deque](https://github.com/early-yoga-class/algorithm-study/tree/main/%ED%95%B4%EB%B3%BC%EA%B9%8C/deque) | [모음사전](https://school.programmers.co.kr/learn/courses/30/lessons/84512), [여행경로](https://school.programmers.co.kr/learn/courses/30/lessons/43164) | DFS/BFS, 완전탐색|
 | 3주차 | 2주차 오답노트 | [두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667), [단어변환](https://school.programmers.co.kr/learn/courses/30/lessons/43163)| DFS/BFS, 큐|
+| 4주차 | C로 BST구현 | [마법사상어와 파이어스톰](https://www.acmicpc.net/problem/20058), [로봇](https://www.acmicpc.net/problem/1726) | DFS/BFS, 구현 |
