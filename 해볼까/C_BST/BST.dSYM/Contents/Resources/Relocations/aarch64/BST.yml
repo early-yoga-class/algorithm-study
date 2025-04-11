@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     "/Users/iyumin/Desktop/크래프톤/early_yoga/algorithm-study/해볼까/C_BST/BST"
+relocations:
+  - { offset: 0x26, size: 0x8, addend: 0x0, symName: _insert, symObjAddr: 0x0, symBinAddr: 0x1000039E8, symSize: 0xEC }
+  - { offset: 0x41, size: 0x8, addend: 0x0, symName: _insert, symObjAddr: 0x0, symBinAddr: 0x1000039E8, symSize: 0xEC }
+  - { offset: 0x93, size: 0x8, addend: 0x0, symName: _search, symObjAddr: 0xEC, symBinAddr: 0x100003AD4, symSize: 0xAC }
+  - { offset: 0xC9, size: 0x8, addend: 0x0, symName: _findMin, symObjAddr: 0x198, symBinAddr: 0x100003B80, symSize: 0x40 }
+  - { offset: 0xF1, size: 0x8, addend: 0x0, symName: _delete, symObjAddr: 0x1D8, symBinAddr: 0x100003BC0, symSize: 0x1CC }
+  - { offset: 0x15F, size: 0x8, addend: 0x0, symName: _inorder, symObjAddr: 0x3A4, symBinAddr: 0x100003D8C, symSize: 0x70 }
+  - { offset: 0x183, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x414, symBinAddr: 0x100003DFC, symSize: 0x12C }
+...
