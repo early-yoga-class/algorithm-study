@@ -22,7 +22,47 @@ int delete(BST *bst, int value);
 BSTN *search(BST *bst, int value);
 BSTN *findMinNodeFromRightSubTree(BSTN *subRoot);
 int main(){
+    int c, i;
+	c = 1;
 
+	//Initialize the Binary Search Tree as an empty Binary Search Tree
+	BST* bst = malloc(sizeof(BST));
+	bst->root = NULL;
+    bst->size = 0;
+
+	printf("1: Insert an integer into the binary search tree;\n");
+	printf("2: Print the level-order traversal of the binary search tree;\n");
+	printf("0: Quit;\n");
+
+
+	while (c != 0)
+	{
+		printf("Please input your choice(1/2/0): ");
+		scanf("%d", &c);
+
+		switch (c)
+		{
+		case 1:
+			printf("Input an integer that you want to insert into the Binary Search Tree: ");
+			scanf("%d", &i);
+			insert(bst, i);
+			break;
+		case 2:
+			printf("The resulting level-order traversal of the binary search tree is: ");
+            scanf("%d", &i);
+			int k = delete(bst,i);
+            printf("%d\n", k);
+			break;
+		case 0:
+			break;
+		default:
+			printf("Choice unknown;\n");
+			break;
+		}
+
+	}
+
+	return 0;
 }
 
 void insert(BST *bst, int value){
