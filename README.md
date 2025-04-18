@@ -14,8 +14,10 @@
 ## ✏️ 규칙
 
 - 토요일 스터디 시간에 문제 2개씩(제한시간 90분) 풀고 풀이 공유
-- 토요일 오전 9시까지 `해볼까?` 주제 구현해서 pr 올리기, 코드리뷰
 - 다음 주 문제 선정 / `해볼까?` 주제 선정
+- 다음 주 금요일 오후 11:50분까지 `해볼까?` 주제 구현해서 pr 올리기
+- 다음 주 토요일 점심식사 전까지 코드리뷰
+
 
 <br>
 
@@ -24,10 +26,10 @@
 ### 브랜치 네이밍
 
 ```
-week{주차}-문제이름 or 해볼까 주제 이름
+week{주차}-본인이름
 
-ex) week02-모음사전
-ex) week02-힙
+ex) week02-baek
+ex) week02-changhyun
 ```
 
 <br>
@@ -104,4 +106,6 @@ Add: 힙 해볼까? 박창현 (Add: 주제 + 해볼까? + 이름)
 
 | 주차 | 해볼까? | 문제 | 관련 알고리즘 |
 |---|---|---|---|
-| 1주차 | heap, deque | [모음사전](https://school.programmers.co.kr/learn/courses/30/lessons/84512), [여행경로](https://school.programmers.co.kr/learn/courses/30/lessons/43164) | DFS/BFS, 완전탐색|
+| 2주차 | [heap](https://github.com/early-yoga-class/algorithm-study/tree/main/%ED%95%B4%EB%B3%BC%EA%B9%8C/heap), [deque](https://github.com/early-yoga-class/algorithm-study/tree/main/%ED%95%B4%EB%B3%BC%EA%B9%8C/deque) | [모음사전](https://school.programmers.co.kr/learn/courses/30/lessons/84512), [여행경로](https://school.programmers.co.kr/learn/courses/30/lessons/43164) | DFS/BFS, 완전탐색|
+| 3주차 | 2주차 오답노트 | [두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667), [단어변환](https://school.programmers.co.kr/learn/courses/30/lessons/43163)| DFS/BFS, 큐|
+| 4주차 | C로 BST구현 | [마법사상어와 파이어스톰](https://www.acmicpc.net/problem/20058), [로봇](https://www.acmicpc.net/problem/1726) | DFS/BFS, 구현 |
