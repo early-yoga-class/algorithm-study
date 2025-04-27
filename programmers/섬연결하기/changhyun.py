@@ -1,6 +1,5 @@
 import heapq
 def solution(n, costs):
-    answer = 0    
     parent = [i for i in range(n)]
     
     pq = []
