@@ -3,7 +3,6 @@ from collections import deque
 
 input = sys.stdin.readline
 
-
 # Go k = 1, 2, 3 k칸 움직일 수 있다.
 # Turn dir = left, right
 
@@ -18,7 +17,6 @@ direction = [(-1,0),(0,1),(1,0),(0,-1)] # left, right 돌릴 수 있는 순서
 fixDir = [0, 1, 3, 2] # 동쪽이 1, 서쪽이 2, 남쪽이 3, 북쪽이 4이므로 시작 방향 수정
 startDir = fixDir[startDir % 4]
 endDir   = fixDir[endDir % 4]
-ans = 10**9
 
 queue = deque()
 queue.append((startX - 1, startY - 1, startDir, 0))
