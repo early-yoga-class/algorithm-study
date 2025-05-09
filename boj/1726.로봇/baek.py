@@ -1,7 +1,7 @@
 # 백준 1726 로봇
 # bfs 풀이
 
-# 2차원 배열 board[y][x]에서 y가 행(row), x가 열(column)인데, 수학적 좌표(x, y) 개념과 완전히 반대임을 주의하자자
+# 2차원 배열 board[y][x]에서 y가 행(row), x가 열(column)인데, 수학적 좌표(x, y) 개념과 완전히 반대임을 주의하자
 
 from collections import deque
 import sys
