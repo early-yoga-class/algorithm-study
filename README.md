@@ -113,3 +113,4 @@ Add: 힙 해볼까? 박창현 (Add: 주제 + 해볼까? + 이름)
 | 6주차 | 4주차 오답노트 | [섬 연결하기](https://school.programmers.co.kr/learn/courses/30/lessons/42861), [주차 요금 정산](https://school.programmers.co.kr/learn/courses/30/lessons/92341) | Graph, simulation|
 | 7주차 | 6주차 알고리즘 | [하와와 대학생쨩 하와이로 가는 거시와요~](https://www.acmicpc.net/problem/16456), [전생했더니 슬라임 연구자였던 건에 대하여 (Easy)](https://www.acmicpc.net/problem/14715) | DP, 정수론 |
 | 8주차 | 7주차 알고리즘 | [석유 시추](https://school.programmers.co.kr/learn/courses/30/lessons/250136), [수식 복원하기](https://school.programmers.co.kr/learn/courses/30/lessons/340210) | 그래프 |
+| 9주차 | 8주차 알고리즘 | [디펜스 게임](https://school.programmers.co.kr/learn/courses/30/lessons/142085), [스티커](https://www.acmicpc.net/problem/9465) | 구현, DP |
