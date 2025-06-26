@@ -118,3 +118,4 @@ Add: 힙 해볼까? 박창현 (Add: 주제 + 해볼까? + 이름)
 | 11주차 | 10주차 알고리즘 | [게임맵최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844?language=python3), [숫자야구](https://www.acmicpc.net/problem/2503) | BFS, 시뮬레이션 |
 | 12주차 | 11주차 알고리즘 | [오큰수](https://www.acmicpc.net/problem/17298), [올림픽](https://www.acmicpc.net/problem/8979) | 스택, 정렬 |
 | 13주차 | 12주차 알고리즘 | [배열합치기](https://www.acmicpc.net/problem/11728), [인구이동](https://www.acmicpc.net/problem/16234) | 정렬, BFS |
+| 14주차 | 13주차 알고리즘 | [0 만들기](https://www.acmicpc.net/problem/7490), [타노스](https://www.acmicpc.net/problem/20310) | 구현, 문자열 |
