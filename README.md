@@ -119,4 +119,4 @@ Add: 힙 해볼까? 박창현 (Add: 주제 + 해볼까? + 이름)
 | 12주차 | 11주차 알고리즘 | [오큰수](https://www.acmicpc.net/problem/17298), [올림픽](https://www.acmicpc.net/problem/8979) | 스택, 정렬 |
 | 13주차 | 12주차 알고리즘 | [배열합치기](https://www.acmicpc.net/problem/11728), [인구이동](https://www.acmicpc.net/problem/16234) | 정렬, BFS |
 | 14주차 | 13주차 알고리즘 | [0 만들기](https://www.acmicpc.net/problem/7490), [타노스](https://www.acmicpc.net/problem/20310) | 구현, 문자열 |
-| 15주차 | 14주차 알고리즘 | [로또](https://www.acmicpc.net/group/23752), [방금그곡](https://school.programmers.co.kr/learn/courses/30/lessons/17683) | 백트래킹, 시뮬레이션 |
+| 15주차 | 14주차 알고리즘 | [로또](https://www.acmicpc.net/problem/6603), [방금그곡](https://school.programmers.co.kr/learn/courses/30/lessons/17683) | 백트래킹, 시뮬레이션 |
