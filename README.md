@@ -121,3 +121,5 @@ Add: 힙 해볼까? 박창현 (Add: 주제 + 해볼까? + 이름)
 | 14주차 | 13주차 알고리즘 | [0 만들기](https://www.acmicpc.net/problem/7490), [타노스](https://www.acmicpc.net/problem/20310) | 구현, 문자열 |
 | 15주차 | 14주차 알고리즘 | [로또](https://www.acmicpc.net/problem/6603), [방금그곡](https://school.programmers.co.kr/learn/courses/30/lessons/17683) | 백트래킹, 시뮬레이션 |
 | 16주차 | 15주차 알고리즘 | [스타트와링크](https://www.acmicpc.net/problem/14889), [거리두기확인하기](https://school.programmers.co.kr/learn/courses/30/lessons/81302) | 구현, 백트래킹 |
+| 17주차 | 16주차 알고리즘 | [지게차와 크레인](https://school.programmers.co.kr/learn/courses/30/lessons/388353), [봄버맨](https://www.acmicpc.net/problem/16918) | bfs, dfs |
+| 18주차 | 17주차 알고리즘 | [문자 해독](https://www.acmicpc.net/problem/1593), [커넥티드 카 실험](https://www.acmicpc.net/problem/25395) | sliding window, bfs |
