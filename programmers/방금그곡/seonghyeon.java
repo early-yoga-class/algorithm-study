@@ -1,15 +1,9 @@
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class Main {
-    public static void main(String[] args) {
-        String m = "CDCDCD";
-        String[] musicinfos = {"12:00,12:10,NAME,CDCDCDE", "12:30,12:50,NA,CD"};
-        System.out.println(Solution(m, musicinfos));
-    }
-
-    public static String Solution(String m, String[] musicinfos){
-        List<String> strings = Arrays.stream(musicinfos).collect(Collectors.toList());
+class Solution {
+    public String solution(String m, String[] musicinfos) {
+                List<String> strings = Arrays.stream(musicinfos).collect(Collectors.toList());
         Queue<Music> musics = new PriorityQueue<>();
         int count = 1;
 
