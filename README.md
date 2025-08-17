@@ -123,3 +123,4 @@ Add: 힙 해볼까? 박창현 (Add: 주제 + 해볼까? + 이름)
 | 16주차 | 15주차 알고리즘 | [스타트와링크](https://www.acmicpc.net/problem/14889), [거리두기확인하기](https://school.programmers.co.kr/learn/courses/30/lessons/81302) | 구현, 백트래킹 |
 | 17주차 | 16주차 알고리즘 | [지게차와 크레인](https://school.programmers.co.kr/learn/courses/30/lessons/388353), [봄버맨](https://www.acmicpc.net/problem/16918) | bfs, dfs |
 | 18주차 | 17주차 알고리즘 | [문자 해독](https://www.acmicpc.net/problem/1593), [커넥티드 카 실험](https://www.acmicpc.net/problem/25395) | sliding window, bfs |
+| 19주차 | 18주차 알고리즘 | [별찍기 - 10](https://www.acmicpc.net/problem/2447), [사회망 서비스](https://www.acmicpc.net/problem/2533) | 트리 DP, 재귀|
