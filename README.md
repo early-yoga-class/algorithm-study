@@ -125,3 +125,4 @@ Add: 힙 해볼까? 박창현 (Add: 주제 + 해볼까? + 이름)
 | 18주차 | 17주차 알고리즘 | [문자 해독](https://www.acmicpc.net/problem/1593), [커넥티드 카 실험](https://www.acmicpc.net/problem/25395) | sliding window, bfs |
 | 19주차 | 18주차 알고리즘 | [별찍기 - 10](https://www.acmicpc.net/problem/2447), [사회망 서비스](https://www.acmicpc.net/problem/2533) | 트리 DP, 재귀 |
 | 20주차 | 19주차 알고리즘 | [캐슬디펜스](https://www.acmicpc.net/problem/17135), [절댓값 힙](https://www.acmicpc.net/problem/11286) | 힙, 구현 |
+| 21주차 | 20주차 알고리즘 | [완전 범죄](https://school.programmers.co.kr/learn/courses/30/lessons/389480?language=python3), [꽁꽁 얼어붙은 트리](https://www.acmicpc.net/problem/34011) | DP, 구현 |
