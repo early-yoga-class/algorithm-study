@@ -128,3 +128,4 @@ Add: 힙 해볼까? 박창현 (Add: 주제 + 해볼까? + 이름)
 | 21주차 | 20주차 알고리즘 | [완전 범죄](https://school.programmers.co.kr/learn/courses/30/lessons/389480?language=python3), [꽁꽁 얼어붙은 트리](https://www.acmicpc.net/problem/34011) | DP, 구현 |
 | 22주차 | 21주차 알고리즘 | [좋은 친구](https://www.acmicpc.net/problem/3078), [이모티콘 할인 행사](https://school.programmers.co.kr/learn/courses/30/lessons/150368) | 슬라이딩윈도우, 완탐 |
 | 23주차 | 22주차 알고리즘 | [충돌 위험 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/340211), [컨베이어 벨트 위의 로봇](https://www.acmicpc.net/problem/20055) | 구현 |
+| 24주차 | 23주차 알고리즘 | [막대기](https://www.acmicpc.net/problem/1094), [뱀](https://www.acmicpc.net/problem/3190) | 시뮬레이션 |
