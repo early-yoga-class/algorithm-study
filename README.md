@@ -132,3 +132,7 @@ Add: 힙 해볼까? 박창현 (Add: 주제 + 해볼까? + 이름)
 | 25주차 | 24주차 알고리즘 | [전쟁-전투](https://www.acmicpc.net/problem/1303), [혼자서하는틱택토](https://school.programmers.co.kr/learn/courses/30/lessons/160585) | bfs, dfs, 완전탐색 |
 | 26주차 | 25주차 알고리즘 | [포도주 시식](https://www.acmicpc.net/problem/2156), [사다리 조작](https://www.acmicpc.net/problem/15684) | DP, 완탐 |
 | 27주차 | 26주차 알고리즘 | [점수 따먹기](https://www.acmicpc.net/problem/1749), [감소하는 수](https://www.acmicpc.net/problem/1038) | 카데인, 조합 |
+| 28주차 | 27주차 알고리즘 | [작업](https://www.acmicpc.net/problem/2056), [암호만들기](https://www.acmicpc.net/problem/1759) | 브루트포스, 위상정렬 |
+| 29주차 | 28주차 알고리즘 | [회전초밥](https://www.acmicpc.net/problem/2531), [톱니바퀴](https://www.acmicpc.net/problem/14891) | 구현 |
+| 30주차 | 29주차 알고리즘 | [나만 안되는 연애](https://www.acmicpc.net/problem/14621), [HTML 파싱](https://www.acmicpc.net/problem/22859) | MST, regex |
+
