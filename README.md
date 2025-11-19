@@ -135,4 +135,6 @@ Add: 힙 해볼까? 박창현 (Add: 주제 + 해볼까? + 이름)
 | 28주차 | 27주차 알고리즘 | [작업](https://www.acmicpc.net/problem/2056), [암호만들기](https://www.acmicpc.net/problem/1759) | 브루트포스, 위상정렬 |
 | 29주차 | 28주차 알고리즘 | [회전초밥](https://www.acmicpc.net/problem/2531), [톱니바퀴](https://www.acmicpc.net/problem/14891) | 구현 |
 | 30주차 | 29주차 알고리즘 | [나만 안되는 연애](https://www.acmicpc.net/problem/14621), [HTML 파싱](https://www.acmicpc.net/problem/22859) | MST, regex |
+| 31주차 | 30주차 알고리즘 | [A와 B 2](https://www.acmicpc.net/problem/12919), [소수의 연속합](https://www.acmicpc.net/problem/1644) | prefix sum, brute force |
+| 32주차 | 31주차 알고리즘 | [🎵니가 싫어 싫어 너무 싫어 싫어 오지 마 내게 찝쩍대지마🎵 - 1](https://www.acmicpc.net/problem/20440), [꿀 따기](https://www.acmicpc.net/problem/21758) | prefix sum, 스위칭 |
 
