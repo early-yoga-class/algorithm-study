@@ -138,5 +138,6 @@ Add: 힙 해볼까? 박창현 (Add: 주제 + 해볼까? + 이름)
 | 31주차 | 30주차 알고리즘 | [A와 B 2](https://www.acmicpc.net/problem/12919), [소수의 연속합](https://www.acmicpc.net/problem/1644) | prefix sum, brute force |
 | 32주차 | 31주차 알고리즘 | [🎵니가 싫어 싫어 너무 싫어 싫어 오지 마 내게 찝쩍대지마🎵 - 1](https://www.acmicpc.net/problem/20440), [꿀 따기](https://www.acmicpc.net/problem/21758) | prefix sum, 스위칭 |
 | 33주차 | 32주차 알고리즘 | [외벽점검](https://school.programmers.co.kr/learn/courses/30/lessons/60062), [36진수](https://www.acmicpc.net/problem/1036) | 완전탐색, 그리디 |
-| 34주차 | 33주차 알고리즘 | [기지국설치](), [테트로미노]() | 구현, 시뮬레이션 |
+| 34주차 | 33주차 알고리즘 | [기지국설치](https://school.programmers.co.kr/learn/courses/30/lessons/12979), [테트로미노](https://www.acmicpc.net/problem/14500) | 구현, 시뮬레이션 |
+| 35주차 | 34주차 알고리즘 | [Moo게임](https://www.acmicpc.net/problem/5904), [두개의 탑](https://www.acmicpc.net/problem/2118) | 분할정복, 투포인터 |
 
