@@ -9,25 +9,25 @@ public class Rain {
 
         int[] heights = new int[w];
 
-        for(int i=0;i<w;i++) heights[i] = sc.nextInt();
+        for (int i = 0; i < w; i++) heights[i] = sc.nextInt();
 
         int[] left = new int[w];
         int[] right = new int[w];
         int maxHeight = 0;
-        for(int i=0;i<w;i++){
+        for (int i = 0; i < w; i++) {
             maxHeight = Math.max(maxHeight, heights[i]);
-            left[i]=maxHeight;
+            left[i] = maxHeight;
         }
 
         maxHeight = 0;
-        for(int i=w-1;i>=0;i--){
+        for (int i = w - 1; i >= 0; i--) {
             maxHeight = Math.max(maxHeight, heights[i]);
             right[i] = maxHeight;
         }
 
-        for(int i=0;i<w;i++){
+        for (int i = 0; i < w; i++) {
             int min = Math.min(right[i], left[i]);
-            if(min>heights[i]) {
+            if (min > heights[i]) {
                 result += min - heights[i];
             }
         }
