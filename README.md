@@ -142,3 +142,5 @@ Add: 힙 해볼까? 박창현 (Add: 주제 + 해볼까? + 이름)
 | 35주차 | 34주차 알고리즘 | [Moo게임](https://www.acmicpc.net/problem/5904), [두개의 탑](https://www.acmicpc.net/problem/2118) | 분할정복, 투포인터 |
 | 36주차 | 35주차 알고리즘 | [빗물](https://www.acmicpc.net/problem/14719), [주식](https://www.acmicpc.net/problem/11501), [양궁대회](https://school.programmers.co.kr/learn/courses/30/lessons/92342?language=java) | 구현 |
 | 37주차 | 36주차 알고리즘 | [파이프 옮기기 1](https://www.acmicpc.net/problem/17070), [퇴사](https://www.acmicpc.net/problem/14501) | 그래프, DP |
+| 38주차 | 37주차 알고리즘 | [오목](https://www.acmicpc.net/problem/2615), [마법사 상어와 비바라기](https://www.acmicpc.net/problem/21610) | 구현, 시뮬레이션 |
+| 39주차 | 38주차 알고리즘 | [감시](https://www.acmicpc.net/problem/15683), [등산 마니아](https://www.acmicpc.net/problem/20188) | 구현, 그래프 |
