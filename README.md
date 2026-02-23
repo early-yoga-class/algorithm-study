@@ -144,3 +144,5 @@ Add: 힙 해볼까? 박창현 (Add: 주제 + 해볼까? + 이름)
 | 37주차 | 36주차 알고리즘 | [파이프 옮기기 1](https://www.acmicpc.net/problem/17070), [퇴사](https://www.acmicpc.net/problem/14501) | 그래프, DP |
 | 38주차 | 37주차 알고리즘 | [오목](https://www.acmicpc.net/problem/2615), [마법사 상어와 비바라기](https://www.acmicpc.net/problem/21610) | 구현, 시뮬레이션 |
 | 39주차 | 38주차 알고리즘 | [감시](https://www.acmicpc.net/problem/15683), [등산 마니아](https://www.acmicpc.net/problem/20188) | 구현, 그래프 |
+| 휴가 | - | - | - | 
+| 41주차 | 39주차 알고리즘 | [파일합치기 3](https://www.acmicpc.net/problem/13975), [폴더 정리(small)](https://www.acmicpc.net/problem/22860) | 우선순위 큐, 그래프
