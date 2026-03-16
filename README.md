@@ -145,4 +145,6 @@ Add: 힙 해볼까? 박창현 (Add: 주제 + 해볼까? + 이름)
 | 38주차 | 37주차 알고리즘 | [오목](https://www.acmicpc.net/problem/2615), [마법사 상어와 비바라기](https://www.acmicpc.net/problem/21610) | 구현, 시뮬레이션 |
 | 39주차 | 38주차 알고리즘 | [감시](https://www.acmicpc.net/problem/15683), [등산 마니아](https://www.acmicpc.net/problem/20188) | 구현, 그래프 |
 | 휴가 | - | - | - | 
-| 41주차 | 39주차 알고리즘 | [파일합치기 3](https://www.acmicpc.net/problem/13975), [폴더 정리(small)](https://www.acmicpc.net/problem/22860) | 우선순위 큐, 그래프
+| 41주차 | 39주차 알고리즘 | [파일합치기 3](https://www.acmicpc.net/problem/13975), [폴더 정리(small)](https://www.acmicpc.net/problem/22860) | 우선순위 큐, 그래프 |
+| 42주차 | 41주차 알고리즘 | [데스노트](https://www.acmicpc.net/problem/2281), [나이트의 이동](https://www.acmicpc.net/problem/7562) | DP, 구현 |
+| 43주차 | 42주차 알고리즘 | [미친 아두이노](https://www.acmicpc.net/problem/8972), [후보 추천하기](https://www.acmicpc.net/problem/1713) | 구현 |
