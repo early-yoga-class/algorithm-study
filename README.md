@@ -148,3 +148,5 @@ Add: 힙 해볼까? 박창현 (Add: 주제 + 해볼까? + 이름)
 | 41주차 | 39주차 알고리즘 | [파일합치기 3](https://www.acmicpc.net/problem/13975), [폴더 정리(small)](https://www.acmicpc.net/problem/22860) | 우선순위 큐, 그래프 |
 | 42주차 | 41주차 알고리즘 | [데스노트](https://www.acmicpc.net/problem/2281), [나이트의 이동](https://www.acmicpc.net/problem/7562) | DP, 구현 |
 | 43주차 | 42주차 알고리즘 | [미친 아두이노](https://www.acmicpc.net/problem/8972), [후보 추천하기](https://www.acmicpc.net/problem/1713) | 구현 |
+| 44주차 | 43주차 알고리즘 | [치즈](https://www.acmicpc.net/problem/2638), [특정한 최단 경로](https://www.acmicpc.net/problem/1504) | 구현 |
+| 45주차 | 44주차 알고리즘 | [드래곤 커브](https://www.acmicpc.net/problem/15685), [오랜기간 보호한 동물1](https://school.programmers.co.kr/learn/courses/30/lessons/59044) | 구현, SQL |
