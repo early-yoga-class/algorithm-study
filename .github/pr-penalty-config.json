@@ -1,0 +1,33 @@
+{
+  "timezone": "Asia/Seoul",
+  "cutoff_weekday": 0,
+  "cutoff_hour": 9,
+  "count_drafts": true,
+  "required_labels": [],
+  "members": [
+    {
+      "github": "daven-park",
+      "name": "박창현"
+    },
+    {
+      "github": "yoominlee00",
+      "name": "이유민"
+    },
+    {
+      "github": "anonymity-developer",
+      "name": "백지원"
+    },
+    {
+      "github": "seonghyeon0312",
+      "name": "박성현"
+    },
+    {
+      "github": "Anas-wg",
+      "name": "조완기"
+    },
+    {
+      "github": "whtierice",
+      "name": "오주영"
+    }
+  ]
+}

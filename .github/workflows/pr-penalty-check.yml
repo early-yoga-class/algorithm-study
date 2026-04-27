@@ -1,0 +1,43 @@
+name: PR Penalty Check
+
+on:
+  schedule:
+    - cron: "0 0 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  check-pr-penalty:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Check weekly PR submissions
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python scripts/check_pr_penalties.py
+
+      - name: Commit updated penalty board
+        run: |
+          if git diff --quiet; then
+            echo "No penalty changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add study/penalties.json study/penalties.md
+          git commit -m "Docs: update weekly PR penalty board"
+          git push
