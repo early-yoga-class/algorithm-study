@@ -12,8 +12,10 @@
     },
     "anonymity-developer": {
       "name": "백지원",
-      "penalties": 0,
-      "missed_periods": []
+      "penalties": 1,
+      "missed_periods": [
+        "2026-04-27 09:00 KST"
+      ]
     },
     "seonghyeon0312": {
       "name": "박성현",
@@ -22,14 +24,32 @@
     },
     "Anas-wg": {
       "name": "조완기",
-      "penalties": 0,
-      "missed_periods": []
+      "penalties": 1,
+      "missed_periods": [
+        "2026-04-27 09:00 KST"
+      ]
     },
     "whtierice": {
       "name": "오주영",
-      "penalties": 0,
-      "missed_periods": []
+      "penalties": 1,
+      "missed_periods": [
+        "2026-04-27 09:00 KST"
+      ]
     }
   },
-  "history": []
+  "history": [
+    {
+      "period_end": "2026-04-27 09:00 KST",
+      "submitted": [
+        "박성현",
+        "박창현",
+        "이유민"
+      ],
+      "missed": [
+        "백지원",
+        "오주영",
+        "조완기"
+      ]
+    }
+  ]
 }
