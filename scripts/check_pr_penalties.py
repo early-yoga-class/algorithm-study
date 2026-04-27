@@ -160,6 +160,7 @@ def build_markdown(
     submitted_members: list[Member],
     missed_members: list[Member],
 ) -> str:
+    max_penalties = max((member["penalties"] for member in board["members"].values()), default=0)
     lines = [
         "# PR 벌주 현황",
         "",
@@ -176,7 +177,8 @@ def build_markdown(
         key=lambda item: (-item[1]["penalties"], item[1]["name"]),
     )
     for github_login, info in sorted_members:
-        lines.append(f"| {info['name']} | `{github_login}` | {info['penalties']} |")
+        crown = "👑 " if max_penalties > 0 and info["penalties"] == max_penalties else ""
+        lines.append(f"| {crown}{info['name']} | `{github_login}` | {info['penalties']} |")
 
     lines.extend(["", "## 기록", ""])
 
@@ -210,6 +212,19 @@ def send_webhook(url: str, content: str) -> None:
     except error.HTTPError as exc:
         body = exc.read().decode("utf-8", errors="replace")
         print(f"Webhook failed: {exc.code} {body}", file=sys.stderr)
+
+
+def build_penalty_totals_text(board: dict[str, Any]) -> str:
+    sorted_members = sorted(
+        board["members"].values(),
+        key=lambda item: (-item["penalties"], item["name"]),
+    )
+    max_penalties = max((member["penalties"] for member in sorted_members), default=0)
+    parts = []
+    for member in sorted_members:
+        crown = "👑 " if max_penalties > 0 and member["penalties"] == max_penalties else ""
+        parts.append(f"{crown}{member['name']} {member['penalties']}")
+    return ", ".join(parts)
 
 
 def main() -> int:
@@ -272,11 +287,13 @@ def main() -> int:
 
     submitted_text = ", ".join(member.name for member in submitted_members) if submitted_members else "없음"
     missed_text = ", ".join(member.name for member in missed_members) if missed_members else "없음"
+    total_penalties_text = build_penalty_totals_text(board)
     message = (
         f"[알고리즘 스터디 PR 체크]\n"
         f"- 점검 구간: {start.strftime('%Y-%m-%d %H:%M %Z')} ~ {end.strftime('%Y-%m-%d %H:%M %Z')}\n"
         f"- 제출자: {submitted_text}\n"
-        f"- 미제출자: {missed_text}"
+        f"- 미제출자: {missed_text}\n"
+        f"- 총 벌주: {total_penalties_text}"
     )
 
     send_webhook(os.environ.get("SLACK_WEBHOOK_URL", ""), message)
