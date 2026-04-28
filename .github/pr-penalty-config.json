@@ -2,6 +2,9 @@
   "timezone": "Asia/Seoul",
   "cutoff_weekday": 0,
   "cutoff_hour": 9,
+  "auto_merge_enabled": true,
+  "auto_merge_method": "squash",
+  "auto_merge_base_branch": "main",
   "count_drafts": true,
   "required_labels": [],
   "members": [
