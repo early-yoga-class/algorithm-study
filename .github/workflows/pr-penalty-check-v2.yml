@@ -1,6 +1,6 @@
 name: PR Penalty Check
 
-on:
+'on':
   schedule:
     - cron: "*/5 * * * *"
   workflow_dispatch:
