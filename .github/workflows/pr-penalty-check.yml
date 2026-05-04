@@ -1,6 +1,6 @@
 name: PR Penalty Check
 
-on:
+"on":
   schedule:
     - cron: "*/5 * * * *"
   workflow_dispatch:
@@ -14,13 +14,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Debug trigger
+        run: |
+          echo "event_name=${{ github.event_name }}"
+          echo "ref=${{ github.ref }}"
+          echo "ref_name=${{ github.ref_name }}"
+
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
@@ -37,9 +43,12 @@ jobs:
             echo "No penalty changes to commit."
             exit 0
           fi
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add study/penalties.json study/penalties.md
           git commit -m "Docs: update weekly PR penalty board"
+
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push origin "HEAD:${GITHUB_REF_NAME}"
