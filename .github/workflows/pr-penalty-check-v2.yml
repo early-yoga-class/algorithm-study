@@ -14,12 +14,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Debug trigger
-        run: |
-          echo "event_name=${{ github.event_name }}"
-          echo "ref=${{ github.ref }}"
-          echo "ref_name=${{ github.ref_name }}"
-
       - name: Checkout
         uses: actions/checkout@v4
         with:
@@ -50,5 +44,5 @@ jobs:
           git add study/penalties.json study/penalties.md
           git commit -m "Docs: update weekly PR penalty board"
 
-          git pull --rebase origin "${GITHUB_REF_NAME}"
-          git push origin "HEAD:${GITHUB_REF_NAME}"
+          git pull --rebase origin main
+          git push origin HEAD:main
