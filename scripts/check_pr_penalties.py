@@ -71,8 +71,9 @@ def get_cutoff_window(config: dict[str, Any]) -> tuple[datetime, datetime, str]:
     now = datetime.now(tz)
     cutoff_weekday = int(config["cutoff_weekday"])
     cutoff_hour = int(config["cutoff_hour"])
+    cutoff_minute = int(config.get("cutoff_minute", 0))
 
-    cutoff = now.replace(hour=cutoff_hour, minute=0, second=0, microsecond=0)
+    cutoff = now.replace(hour=cutoff_hour, minute=cutoff_minute, second=0, microsecond=0)
     cutoff -= timedelta(days=(cutoff.weekday() - cutoff_weekday) % 7)
     if now < cutoff:
         cutoff -= timedelta(days=7)

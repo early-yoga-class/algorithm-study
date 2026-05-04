@@ -2,7 +2,7 @@ name: PR Penalty Check
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "2 0 * * 1"
   workflow_dispatch:
 
 permissions:
@@ -15,12 +15,12 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 
@@ -44,5 +44,5 @@ jobs:
           git add study/penalties.json study/penalties.md
           git commit -m "Docs: update weekly PR penalty board"
 
-          git pull --rebase origin main
-          git push origin HEAD:main
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

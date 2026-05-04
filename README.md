@@ -25,7 +25,7 @@
 
 ### PR 벌주 자동화
 
-- 매주 월요일 `09:00 (KST)` 기준 PR 제출 여부를 자동 점검합니다.
+- 매주 월요일 `09:02 (KST)` 기준 PR 제출 여부를 자동 점검합니다.
 - 설정 및 운영 방법은 [study/pr-penalty-automation.md](/Users/iyumin/Desktop/krafton/early_yoga/algorithm-study/study/pr-penalty-automation.md) 에 정리되어 있습니다.
 
 ### 브랜치 네이밍
