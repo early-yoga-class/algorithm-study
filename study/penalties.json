@@ -2,14 +2,17 @@
   "members": {
     "daven-park": {
       "name": "박창현",
-      "penalties": 0,
-      "missed_periods": []
+      "penalties": 1,
+      "missed_periods": [
+        "2026-05-25 09:02 KST"
+      ]
     },
     "yoominlee00": {
       "name": "이유민",
-      "penalties": 1,
+      "penalties": 2,
       "missed_periods": [
-        "2026-05-18 09:02 KST"
+        "2026-05-18 09:02 KST",
+        "2026-05-25 09:02 KST"
       ]
     },
     "anonymity-developer": {
@@ -22,26 +25,30 @@
     },
     "seonghyeon0312": {
       "name": "박성현",
-      "penalties": 0,
-      "missed_periods": []
+      "penalties": 1,
+      "missed_periods": [
+        "2026-05-25 09:02 KST"
+      ]
     },
     "Anas-wg": {
       "name": "조완기",
-      "penalties": 4,
+      "penalties": 5,
       "missed_periods": [
         "2026-04-20 09:00 KST",
         "2026-04-27 09:00 KST",
         "2026-05-04 09:02 KST",
-        "2026-05-18 09:02 KST"
+        "2026-05-18 09:02 KST",
+        "2026-05-25 09:02 KST"
       ]
     },
     "whtierice": {
       "name": "오주영",
-      "penalties": 3,
+      "penalties": 4,
       "missed_periods": [
         "2026-04-27 09:00 KST",
         "2026-05-11 09:02 KST",
-        "2026-05-18 09:02 KST"
+        "2026-05-18 09:02 KST",
+        "2026-05-25 09:02 KST"
       ]
     }
   },
@@ -100,6 +107,19 @@
         "백지원"
       ],
       "missed": [
+        "오주영",
+        "이유민",
+        "조완기"
+      ]
+    },
+    {
+      "period_end": "2026-05-25 09:02 KST",
+      "submitted": [
+        "백지원"
+      ],
+      "missed": [
+        "박성현",
+        "박창현",
         "오주영",
         "이유민",
         "조완기"
